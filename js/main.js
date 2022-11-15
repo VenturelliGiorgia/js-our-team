@@ -35,7 +35,7 @@ const team = document.getElementById("team");
 
 for (let i = 0; i < listaTeam.length; i++) {
     console.log(listaTeam[i]);
-    team.innerHTML += `<li>nome: ${listaTeam[i].nome} <br> ruolo: ${listaTeam[i].ruolo} <br> <img src="img/${listaTeam[i].img}"> <br> <br></li>`;
+    team.innerHTML += `<div class="card col-12 col-md-3"> <img src="img/${listaTeam[i].img}" class="card-img-top"> <div class="card-body"> <p class="card-text"> ${listaTeam[i].nome} <br> ${listaTeam[i].ruolo} </p> </div></div>`;
 }
 
 
