@@ -35,7 +35,7 @@ const team = document.getElementById("team");
 
 for (let i = 0; i < listaTeam.length; i++) {
     console.log(listaTeam[i]);
-    team.innerHTML += `<li>nome: ${listaTeam[i].nome} <br> ruolo: ${listaTeam[i].ruolo} <br> immagine: ${listaTeam[i].img} <br> <br></li>`;
+    team.innerHTML += `<li>nome: ${listaTeam[i].nome} <br> ruolo: ${listaTeam[i].ruolo} <br> <img src="img/${listaTeam[i].img}"> <br> <br></li>`;
 }
 
 
